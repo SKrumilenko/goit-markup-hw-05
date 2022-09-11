@@ -200,7 +200,6 @@ img {
   letter-spacing: 0.06em;
   color: var(--light-txt-cl);
   background-color: var(--accent-bg-cl);
-
   cursor: pointer;
   border: transparent;
   border-radius: var(--btn-radius);
