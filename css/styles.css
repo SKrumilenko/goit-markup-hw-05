@@ -536,7 +536,7 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity var(--anim);
+  transition: opacity 1200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -545,6 +545,7 @@ img {
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotateX(0deg);
+  visibility: visible;
 }
 .modal {
   position: absolute;
